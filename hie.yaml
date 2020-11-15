@@ -1,0 +1,12 @@
+cradle:
+  multi:
+    - path: "./"
+      config:
+        cradle:
+          stack:
+            - path: "./src"
+              component: "complex-drawer:lib"
+            - path: "./app"
+              component: "complex-drawer:exe:complex-drawer-exe"
+            - path: "./test"
+              component: "complex-drawer:test:complex-drawer-test"
