@@ -35,6 +35,9 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - complex-drawer
+    - bmp
+    - bytestring
+    - colour
 
 tests:
   complex-drawer-test:
